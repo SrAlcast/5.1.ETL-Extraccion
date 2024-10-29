@@ -2,7 +2,7 @@
 
 ## 📋 Descripción General
 
-Este laboratorio forma parte de un proceso completo de ETL (Extracción, Transformación y Carga) destinado a analizar la relación entre la demanda, el consumo y la generación eléctrica en distintas provincias de España, complementado con datos demográficos y económicos del Instituto Nacional de Estadística (INE). 
+Este laboratorio forma parte de un proceso completo de ETL (Extracción, Transformación y Carga) destinado a analizar la relación entre la demanda, el consumo y la generación eléctrica en distintas comunidades de España, complementado con datos demográficos y económicos del Instituto Nacional de Estadística (INE). 
 
 El análisis busca identificar patrones y correlaciones entre estas variables, con el fin de comprender mejor las dinámicas energéticas regionales y su relación con factores demográficos y económicos.
 
@@ -10,11 +10,11 @@ El análisis busca identificar patrones y correlaciones entre estas variables, c
 
 ## 🎯 Objetivo del Proyecto
 
-El objetivo principal del análisis es examinar cómo la demanda, el consumo y la generación eléctrica en diferentes provincias de España están influenciados por factores como la población y el PIB provincial. 
+El objetivo principal del análisis es examinar cómo la demanda, el consumo y la generación eléctrica en diferentes comunidades autonomas de España están influenciados por factores como la población y el PIB de la comunidad. 
 
 Este proyecto permitirá a los usuarios explorar:
 - La relación entre el consumo energético y factores socioeconómicos.
-- Patrones de generación y consumo por provincia.
+- Patrones de generación y consumo por comunidad.
 - Correlaciones significativas en los datos para entender el comportamiento energético a nivel regional.
 
 ---
@@ -31,7 +31,7 @@ El laboratorio está dividido en distintas etapas que forman el flujo de trabajo
 2. **Transformación de Datos** 🔧
    - Limpieza y estandarización de los datos.
    - Integración de fuentes de datos energéticos y económicos para unificar el formato y facilitar el análisis.
-   - Creación de nuevas columnas y categorización de datos relevantes para la segmentación por provincia y año.
+   - Creación de nuevas columnas y categorización de datos relevantes para la segmentación por comunidad y año.
 
 3. **Carga de Datos** 💾
    - Almacenamiento de los datos procesados en un formato adecuado para su posterior análisis.
